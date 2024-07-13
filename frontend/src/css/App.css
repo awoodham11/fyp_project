@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(var(--uranian-blue), var(--royal-purple));
+  padding-bottom: 10px;
+  flex-direction: column;
+}
+
+.Toastify__progress-bar {
+  --toastify-color-progress-light: linear-gradient(to right, var(--uranian-blue), var(--royal-purple));
+  --toastify-color-progress-dark: linear-gradient(to right, var(--uranian-blue), var(--royal-purple));
+}
+
+a {
+  text-decoration-style: bold;
+}
+
+#light {
+  background: #afd1ed;
+  color:  black;
+}
+
+#light a {
+  color:  black;
+}
+
+#dark {
+  background: #092136;
+  color:  white;
+}
+
+#dark a {
+  color:  white;
+}
+
+footer {
+  top: 50px;
+  left: 100px;
+  padding: 20px;
+  margin: 10px 10px 10px 10px; 
+}
+
+ul {
+  list-style-type: none;
+}
+
+:root{
+  --uranian-blue: #a0ddffff;
+  --vista-blue: #758ecdff;
+  --periwinkle: #c1cefeff;
+  --cornflower-blue: #7189ffff;
+  --royal-purple: #624cabff;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #000000;
+}
+
+input {
+  min-width: 22em;
+  padding: 0.8rem;
+  margin: 0.8rem 0;
+  border: none;
+  border-radius: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+  font-family: 'Inter', serif;
+  font-weight: bold;
+}
+
+
+@keyframes fadeEffect {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Standard location for title*/
+@media screen and (min-width: 1300px) {
+  .app-Title {
+    animation: fadeEffect 2s;
+    /*font-family: 'Libre-Baskerville', serif;*/
+    font-family: 'Inter', serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 60px;
+    position: fixed; top:35%; left: 5%; /* Allows title to scroll down the page with user */
+  }
+}
+
+/* Centers title in top-middle of Login/Register form when screen is below certain size*/
+@media screen and (max-width: 1299px) {
+  .app-Title {
+    
+    animation: fadeEffect 2s;
+    font-family: 'Inter', serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 30px;
+    position: absolute; top:20px ; /*left: 40%;*/ left: calc(50% - 85px);
+  }
+} 

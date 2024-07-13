@@ -1,0 +1,233 @@
+
+
+  .profileContainer {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  #light .profileContainer {
+    border: 1px solid black;
+  }
+  
+  #dark .profileContainer {
+    border: 1px solid white;
+  }
+  
+  .profilePicture {
+    border-radius: 50px;
+  }
+  
+  .profilePicture label {
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+    padding: 15px;
+  }
+  
+  .profilePicture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .profilePicture input[type="file"]  {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    min-width: 10em;
+    font-weight: bold;
+  
+  }
+  
+  .profilePicture input[type="submit"]  {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    min-width: 10em;
+    font-weight: bold;
+  }
+  
+  .names  {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .names label{
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .names input[type="text"]  {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    /* justify-content: center;
+    display:flex; */
+  
+  }
+  
+  .names input[type="url"]  {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .names input[type="submit"]  {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    min-width: 10em;
+    font-weight: bold;
+  }
+  
+  form {
+    display: block;
+    margin-top: 0em;
+  }
+  
+  
+  .socialMedia {
+    padding: 10px;
+    border-radius: 2px;
+    display: flex;
+  }
+  
+  .settings {
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  #light .cog {
+    padding-left: 10px;
+    color: black;
+  }
+
+  #dark .cog{
+    padding-left: 10px;
+    color: white;
+  }
+
+  #light h2{
+    color: black;
+  }
+  
+  #dark h2{
+    color: white;
+  }
+
+  .settings h3 {
+    text-align: center !important;
+  }
+  
+  .lightDarkMode {
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .sun {
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  
+  .moon {
+    padding-left: 10px;
+  }
+  
+  .speaker {
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  
+  .publicPrivateMode {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .publicPrivateMode button {
+    padding: 15px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .public {
+    padding-right: 5px;
+  }
+  
+  .private {
+    padding-left: 5px;
+  }
+  
+  .themeSetting {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .themeSetting button {
+    padding: 15px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #a0ddffff;
+    border-radius: 34px;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked+.slider {
+    background-color: #7189ffff;
+  }
+  
+  input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }

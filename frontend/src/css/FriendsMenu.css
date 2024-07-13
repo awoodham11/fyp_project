@@ -1,0 +1,57 @@
+:root{
+    --uranian-blue: #a0ddffff;
+    --vista-blue: #758ecdff;
+    --periwinkle: #c1cefeff;
+    --cornflower-blue: #7189ffff;
+    --royal-purple: #624cabff;
+    }
+    
+    
+    
+    
+    #dark .FriendsMenu{
+        /* z-index: 999; */
+        /* background-color: var(--royal-purple); */
+        border: 1px solid white;
+        border-color: white;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    #light .FriendsMenu{
+        /* z-index: 999; */
+        /* background-color: var(--royal-purple); */
+        border: 1px solid black;
+        border-color: black;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    #dark .accrej{
+        border: 4px dashed white;
+        padding: 5px;
+        align-items: center;
+    }
+
+    #light .accrej{
+        border: 4px dashed black;
+        padding: 5px;
+        align-items: center;
+    }
+    
+    #dark .username{
+        color: white;
+        text-align: center;
+    }
+    
+    #light .username{
+        color: black;
+        text-align: center;
+    }
+
+    label{
+        padding-left: 10px;
+        display:block;
+    }
+    
+    

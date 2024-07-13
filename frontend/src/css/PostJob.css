@@ -1,0 +1,39 @@
+.post-job-container input,
+.post-job-container textarea {
+  display: block; 
+  border: 2px solid white;
+  border-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%; 
+  margin-bottom: 15px; 
+  box-sizing: border-box; 
+}
+
+#dark .page-container{
+  border: 1px solid white;
+  border-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#light .page-container{
+  border: 1px solid black;
+  border-color: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.post-job-container button {
+  
+  display: block; 
+  width: 100%; 
+}
+
+
+.link-btn {
+  display: block;
+  width: 100%; 
+  text-align: center; 
+  margin-top: 15px; 
+}

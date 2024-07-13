@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: black;
+}
+
+/* Chat Container */
+.chat-container {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  
+}
+
+#light .chat-container {
+  border: 1px solid black;
+}
+
+#dark .chat-container {
+  border: 1px solid white;
+}
+
+/* Message List */
+.message-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+
+/* Message Item */
+.message-item {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+
+/* Differentiating User's Messages */
+.message-item.user {
+  background: #a0c4ff;
+  margin-left: 20%;
+}
+
+.message-item.other {
+  background: #ffb5a7;
+  margin-right: 20%;
+}
+
+/* Message Details */
+#dark .message-details {
+  background: #000000;
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+#light .message-details {
+  background:white;
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+
+
+/* Timestamp */
+.message-time {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 0.75rem;
+}
+
+/* Input Area */
+.input-area {
+  display: flex;
+  margin-top: 20px;
+}
+
+.input-area input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-area button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background: #45a049;
+}
+
+/* Search */
+.search-bar {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  background: #008cba;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background: #0076a3;
+}
