@@ -32,7 +32,7 @@ const MapPage = () => {
   const libraries = ['places'];
 
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: 'AIzaSyA398smOp0rx5hhahTvaM3S0S6fNZQnR6Y',
+    googleMapsApiKey: '',
     libraries,
   });
 
